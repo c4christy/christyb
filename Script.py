@@ -9,6 +9,9 @@ class script(object):
 
     FILE_TXT = """Just files storee"""
     
+    OWNER_TXT = """✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href=https://t.me/filesharebotusers>AML UPDATES</a>
+Contact Owner for more details through:-"""
+
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
 - Filter is the feature were users can set automated replies for a particular keyword and ᗩᒍᗩ᙭  will respond whenever a keyword is found the message
