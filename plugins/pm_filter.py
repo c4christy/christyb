@@ -76,7 +76,7 @@ async def g_fil_mod(client, message):
 async def give_filter(client, message):
     if G_FILTER:
         if G_MODE.get(str(message.chat.id)) == "False":
-            return 
+            await auto_filter(client, message) 
         else:
             kd = await global_filters(client, message)
         if kd == False:          
