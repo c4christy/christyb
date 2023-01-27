@@ -935,7 +935,7 @@ async def auto_filter(client, msg, spoll=False):
             InlineKeyboardButton(f'  🎬 {search}  🎬 ', 'qinfo')
         ]
     )
-    btn.insert(2, 
+    btn.insert(1, 
          [
              InlineKeyboardButton(f'📮 ɪɴꜰᴏ', 'reqinfo'),
              InlineKeyboardButton(f'📟 ᴍᴏᴠɪᴇ', 'minfo'),
