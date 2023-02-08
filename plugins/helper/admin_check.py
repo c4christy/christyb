@@ -6,12 +6,8 @@ async def admin_check(message: Message) -> bool:
     if not message.from_user:
         return False
 
-    if message.chat.type not in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
-        return False
-
     if message.from_user.id in [
         777000,  # Telegram Service Notifications
-        1087968824  # GroupAnonymousBot
     ]:
         return True
 
